@@ -49,7 +49,7 @@ const fetchData = async () => {
     specialAttack.textContent = `${stats[3].base_stat}`;
     specialDefense.textContent = `${stats[4].base_stat}`;
     speed.textContent = `${stats[5].base_stat}`;
-    pokemonTypes.innerHTML = types.map((types) => `<span>${types.type.name.toUpperCase()}</span>`) 
+    pokemonTypes.innerHTML = types.map((types) => `<span>${types.type.name.toUpperCase()}</span>`).join(" ") 
   };
 
 
