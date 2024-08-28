@@ -29,7 +29,7 @@ const fetchData = async () => {
     }
   };
 
-  fetchData();
+
 
 
   const showPokemon = (data) => {
